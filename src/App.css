@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(144, 179, 244);
+  font-family: sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.app select {
+  margin-bottom: 20px;
+  background: purple;
+  color: #fff;
+  font-size: 27px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.app p {
+  color: #fff;
+  font-size: 40px;
+}
